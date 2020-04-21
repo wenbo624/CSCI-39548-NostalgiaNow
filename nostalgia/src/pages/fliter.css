@@ -1,0 +1,71 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+
+body {
+	background-image:url("https://msg-edit.dfettel.de/wp-content/uploads/2017/10/Konfetti-im-Himmel-2000x1200.jpg");
+}
+
+
+p {
+  color: #FFF;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+  font-family: Helvetica;
+  text-align: center;
+
+}
+
+div {
+    width: 80px;
+    height: 24px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin:-12px 0 0 -40px ;
+    text-align: center;
+}
+
+
+input[type=checkbox] {
+    zoom: 1.5;
+}
+
+
+
+
+.box {
+    display: inline-block;
+    margin: 0 auto;
+    height: 270px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+
+.card button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: 5px 2px 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    color: #d9eef7;
+    border: solid 1px #0076a3;
+    background: #0095cd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    background: -moz-linear-gradient(top, #00adee, #00678e);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#00678e');
+}
